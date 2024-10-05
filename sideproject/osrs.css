@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("images/dragonOutline.jpg");
+  background-size: cover;
+  /* color: #fff; */
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 48px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#search-form {
+  margin-bottom: 20px;
+}
+
+#results {
+  margin-top: 30px;
+}
+
+#mainNav {
+  grid-area: nav;
+  border-bottom: 2px solid #011946;
+}
+
+#mainNav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#mainNav li {
+  display: block;
+  float: left;
+}
+
+#mainNav ul li a {
+  padding: 20px 10px;
+  text-decoration: none;
+  color: #011946;
+}
+
+#mainNav ul li a:hover {
+  color: #091b69;
+}
+
+#mainNav .current a {
+  background-color: #d4ebf2;
+  padding: 14px 10px;
+  color: #011946;
+  border: 6px solid transparent;
+  border-bottom-color: #011946;
+}

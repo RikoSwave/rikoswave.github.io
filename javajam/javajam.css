@@ -1,117 +1,53 @@
 @font-face {
-    font-family: 'Roboto';
-    src: url('../Roboto/Roboto-Black.ttf');
-    src: url('../Roboto/Roboto-Bold.ttf');
+  font-family: "Roboto";
+  src: url("../Roboto/Roboto-Black.ttf");
 }
 
-body { 	
-	background-color: #FCEBB6;
-    color: #221811;
-    font-size:100%;
-    font-family: Roboto, Tahoma, Arial, sans-serif;
-	}
+body {
+  background-color: #fcebb6;
+  color: #221811;
+  font-size: 100%;
+  font-family: Roboto, Tahoma, Arial, sans-serif;
+  background-image: url(images/fadedroad50.jpg);
+}
 
-#wrapper { 
-    background-color: #FEFAEB;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;  
-    }     
+#wrapper {
+  background-color: #fefaeb;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
 
-nav {	
-	font-weight: bold;
-    text-align: center;
-	}
+nav {
+  font-weight: bold;
+  text-align: center;
+}
 
-h1 	{ 
-    line-height: 200%;
-	}
+h1 {
+  line-height: 200%;
+}
 
-h2 	{ 
-    color: #8C3826;
-    }
+h2 {
+  color: #8c3826;
+}
+
+h3 {
+  color: #8c3826;
+}
 
 header {
-    background-color: #D2B48C;   
-    color: #8C3826;
-    text-align: center;
-        }    
+  background-color: #d2b48c;
+  color: #8c3826;
+  text-align: center;
+}
 
-footer {  
-    background-color: #D2B48C;
-    font-size: .60em;
-    font-style: italic;
-    text-align: center;
-        }    
+footer {
+  background-color: #d2b48c;
+  font-size: 0.6em;
+  font-style: italic;
+  text-align: center;
+}
 
-.roboto-thin {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-.roboto-light {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-.roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-.roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-.roboto-black {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-.roboto-thin-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-.roboto-light-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-.roboto-regular-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-.roboto-medium-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-.roboto-bold-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-.roboto-black-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
+img.roadimage{
+  width: 100%;
+}
