@@ -22,14 +22,15 @@ body {
   width: 80%;
   min-width: 900px;
   max-width: 1280px;
-  box-shadow: 5px 5px;
+  box-shadow: 5px 5px 5px;
 }
 
 nav {
   font-weight: bold;
   text-align: center;
   font-size: 1.5em;
-  padding: 5px 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 nav a {
@@ -44,7 +45,7 @@ h2 {
   color: #8c3826;
 }
 
-h3 {
+h3, dt {
   color: #8c3826;
 }
 
@@ -53,6 +54,7 @@ h4 {
   background-color: #d2b48c;
   font-size: 1.2em;
   padding-left: .5em;
+  padding-bottom: .25em;
 }
 
 
@@ -60,7 +62,8 @@ header {
   background-color: #d2b48c;
   color: #8c3826;
   text-align: center;
-  padding: 10px 10px 10px 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 footer {
@@ -70,6 +73,12 @@ footer {
   text-align: center;
   padding: 1em;
   border: 2px solid #221811;
+}
+
+img {
+  border-style: none;
+  max-width: 100%;
+  max-height: auto;
 }
 
 img.roadimage {
