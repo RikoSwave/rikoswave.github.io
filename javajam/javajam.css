@@ -9,6 +9,10 @@ body {
   font-size: 100%;
   font-family: Roboto, Tahoma, Arial, sans-serif;
   background-image: url(images/fadedroad50.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* padding: 10px 10px 20px 10px; */
 }
 
 #wrapper {
@@ -16,15 +20,24 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+  min-width: 900px;
+  max-width: 1280px;
+  box-shadow: 5px 5px;
 }
 
 nav {
   font-weight: bold;
   text-align: center;
+  font-size: 1.5em;
+  padding: 5px 5px;
+}
+
+nav a {
+  text-decoration: none;
 }
 
 h1 {
-  line-height: 200%;
+  font-size: 3em;
 }
 
 h2 {
@@ -35,10 +48,19 @@ h3 {
   color: #8c3826;
 }
 
+h4 {
+  color: black;
+  background-color: #d2b48c;
+  font-size: 1.2em;
+  padding-left: .5em;
+}
+
+
 header {
   background-color: #d2b48c;
   color: #8c3826;
   text-align: center;
+  padding: 10px 10px 10px 10px;
 }
 
 footer {
@@ -46,8 +68,25 @@ footer {
   font-size: 0.6em;
   font-style: italic;
   text-align: center;
+  padding: 1em;
+  border: 2px solid #221811;
 }
 
-img.roadimage{
+img.roadimage {
   width: 100%;
+}
+img.mugs {
+  float: right;
+  width: 45%;
+  
+}
+
+.menuIntro {
+  float: left;
+}
+
+.details {
+  padding-left: 20%;
+  padding-right: 20%;
+  
 }
