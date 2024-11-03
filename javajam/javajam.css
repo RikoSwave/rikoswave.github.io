@@ -175,6 +175,21 @@ footer {
   border-top: 2px solid #8c3826;
 }
 
+table {
+  border-spacing: 0;
+  margin: auto;
+  width: 90%;
+}
+
+
+th, td {
+  padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+  background-color: #d2b48e;
+}
+
 /* Configure Medium Layout */
 @media (min-width: 600px) {
   header {
